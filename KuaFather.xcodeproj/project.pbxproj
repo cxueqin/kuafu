@@ -14,6 +14,15 @@
 		DCD230EC1DB32374007F8D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD230EB1DB32374007F8D8A /* Assets.xcassets */; };
 		DCD230EF1DB32374007F8D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD230ED1DB32374007F8D8A /* LaunchScreen.storyboard */; };
 		DCD230FA1DB32374007F8D8A /* KuaFatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD230F91DB32374007F8D8A /* KuaFatherTests.m */; };
+		DCD231061DB32853007F8D8A /* GeoPointCompass.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD231041DB32853007F8D8A /* GeoPointCompass.m */; };
+		DCD231081DB3296B007F8D8A /* compass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCD231071DB3296B007F8D8A /* compass.jpg */; };
+		DCD2310C1DB341E7007F8D8A /* Sun.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD2310B1DB341E7007F8D8A /* Sun.m */; };
+		DCD2310E1DB343D1007F8D8A /* SunArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD2310D1DB343D1007F8D8A /* SunArrow.png */; };
+		DCD231101DB34F79007F8D8A /* SunArrow1.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD2310F1DB34F79007F8D8A /* SunArrow1.png */; };
+		DCD231121DB36282007F8D8A /* compass2.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD231111DB36282007F8D8A /* compass2.png */; };
+		DCD231141DB362A1007F8D8A /* sunarrow2.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD231131DB362A1007F8D8A /* sunarrow2.png */; };
+		DCD231161DB36583007F8D8A /* lauchscreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCD231151DB36583007F8D8A /* lauchscreen.jpg */; };
+		DCD231181DB36889007F8D8A /* lauchscreen2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DCD231171DB36889007F8D8A /* lauchscreen2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,17 @@
 		DCD230F51DB32374007F8D8A /* KuaFatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KuaFatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD230F91DB32374007F8D8A /* KuaFatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KuaFatherTests.m; sourceTree = "<group>"; };
 		DCD230FB1DB32374007F8D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD231041DB32853007F8D8A /* GeoPointCompass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeoPointCompass.m; path = ../../../GeoPointCompass/GeoPointCompass/GeoPointCompass.m; sourceTree = "<group>"; };
+		DCD231051DB32853007F8D8A /* GeoPointCompass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoPointCompass.h; path = ../../../GeoPointCompass/GeoPointCompass/GeoPointCompass.h; sourceTree = "<group>"; };
+		DCD231071DB3296B007F8D8A /* compass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = compass.jpg; sourceTree = "<group>"; };
+		DCD2310A1DB333B3007F8D8A /* Sun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sun.h; sourceTree = "<group>"; };
+		DCD2310B1DB341E7007F8D8A /* Sun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sun.m; sourceTree = "<group>"; };
+		DCD2310D1DB343D1007F8D8A /* SunArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SunArrow.png; sourceTree = "<group>"; };
+		DCD2310F1DB34F79007F8D8A /* SunArrow1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SunArrow1.png; sourceTree = "<group>"; };
+		DCD231111DB36282007F8D8A /* compass2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass2.png; sourceTree = "<group>"; };
+		DCD231131DB362A1007F8D8A /* sunarrow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunarrow2.png; sourceTree = "<group>"; };
+		DCD231151DB36583007F8D8A /* lauchscreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lauchscreen.jpg; sourceTree = "<group>"; };
+		DCD231171DB36889007F8D8A /* lauchscreen2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lauchscreen2.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,15 +101,26 @@
 		DCD230DE1DB32374007F8D8A /* KuaFather */ = {
 			isa = PBXGroup;
 			children = (
+				DCD231171DB36889007F8D8A /* lauchscreen2.jpeg */,
+				DCD231151DB36583007F8D8A /* lauchscreen.jpg */,
+				DCD2310F1DB34F79007F8D8A /* SunArrow1.png */,
+				DCD2310D1DB343D1007F8D8A /* SunArrow.png */,
+				DCD2310A1DB333B3007F8D8A /* Sun.h */,
+				DCD231071DB3296B007F8D8A /* compass.jpg */,
+				DCD231041DB32853007F8D8A /* GeoPointCompass.m */,
+				DCD231051DB32853007F8D8A /* GeoPointCompass.h */,
 				DCD230E21DB32374007F8D8A /* AppDelegate.h */,
 				DCD230E31DB32374007F8D8A /* AppDelegate.m */,
 				DCD230E51DB32374007F8D8A /* ViewController.h */,
+				DCD231111DB36282007F8D8A /* compass2.png */,
 				DCD230E61DB32374007F8D8A /* ViewController.m */,
+				DCD231131DB362A1007F8D8A /* sunarrow2.png */,
 				DCD230E81DB32374007F8D8A /* Main.storyboard */,
 				DCD230EB1DB32374007F8D8A /* Assets.xcassets */,
 				DCD230ED1DB32374007F8D8A /* LaunchScreen.storyboard */,
 				DCD230F01DB32374007F8D8A /* Info.plist */,
 				DCD230DF1DB32374007F8D8A /* Supporting Files */,
+				DCD2310B1DB341E7007F8D8A /* Sun.m */,
 			);
 			path = KuaFather;
 			sourceTree = "<group>";
@@ -160,6 +191,7 @@
 				TargetAttributes = {
 					DCD230DB1DB32374007F8D8A = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Q34QU2B98D;
 						ProvisioningStyle = Automatic;
 					};
 					DCD230F41DB32374007F8D8A = {
@@ -193,9 +225,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD231181DB36889007F8D8A /* lauchscreen2.jpeg in Resources */,
+				DCD231081DB3296B007F8D8A /* compass.jpg in Resources */,
 				DCD230EF1DB32374007F8D8A /* LaunchScreen.storyboard in Resources */,
+				DCD231101DB34F79007F8D8A /* SunArrow1.png in Resources */,
+				DCD231161DB36583007F8D8A /* lauchscreen.jpg in Resources */,
+				DCD231141DB362A1007F8D8A /* sunarrow2.png in Resources */,
+				DCD2310E1DB343D1007F8D8A /* SunArrow.png in Resources */,
 				DCD230EC1DB32374007F8D8A /* Assets.xcassets in Resources */,
 				DCD230EA1DB32374007F8D8A /* Main.storyboard in Resources */,
+				DCD231121DB36282007F8D8A /* compass2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,9 +252,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD2310C1DB341E7007F8D8A /* Sun.m in Sources */,
 				DCD230E71DB32374007F8D8A /* ViewController.m in Sources */,
 				DCD230E41DB32374007F8D8A /* AppDelegate.m in Sources */,
 				DCD230E11DB32374007F8D8A /* main.m in Sources */,
+				DCD231061DB32853007F8D8A /* GeoPointCompass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,9 +390,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q34QU2B98D;
 				INFOPLIST_FILE = KuaFather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fjitta.KuaFather;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fjitta.KuaFather1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -360,9 +402,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q34QU2B98D;
 				INFOPLIST_FILE = KuaFather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fjitta.KuaFather;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fjitta.KuaFather1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
