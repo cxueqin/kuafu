@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC1976D31DB3906E008F4AD0 /* intro.png in Resources */ = {isa = PBXBuildFile; fileRef = DC1976D21DB3906E008F4AD0 /* intro.png */; };
 		DCD230E11DB32374007F8D8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD230E01DB32374007F8D8A /* main.m */; };
 		DCD230E41DB32374007F8D8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD230E31DB32374007F8D8A /* AppDelegate.m */; };
 		DCD230E71DB32374007F8D8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD230E61DB32374007F8D8A /* ViewController.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC1976D21DB3906E008F4AD0 /* intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro.png; sourceTree = "<group>"; };
 		DCD230DC1DB32374007F8D8A /* KuaFather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KuaFather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD230E01DB32374007F8D8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCD230E21DB32374007F8D8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		DCD230D31DB32374007F8D8A = {
 			isa = PBXGroup;
 			children = (
+				DC1976D21DB3906E008F4AD0 /* intro.png */,
 				DCD230DE1DB32374007F8D8A /* KuaFather */,
 				DCD230F81DB32374007F8D8A /* KuaFatherTests */,
 				DCD230DD1DB32374007F8D8A /* Products */,
@@ -191,7 +194,6 @@
 				TargetAttributes = {
 					DCD230DB1DB32374007F8D8A = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = Q34QU2B98D;
 						ProvisioningStyle = Automatic;
 					};
 					DCD230F41DB32374007F8D8A = {
@@ -225,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1976D31DB3906E008F4AD0 /* intro.png in Resources */,
 				DCD231181DB36889007F8D8A /* lauchscreen2.jpeg in Resources */,
 				DCD231081DB3296B007F8D8A /* compass.jpg in Resources */,
 				DCD230EF1DB32374007F8D8A /* LaunchScreen.storyboard in Resources */,
@@ -390,7 +393,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Q34QU2B98D;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KuaFather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fjitta.KuaFather1;
@@ -402,7 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Q34QU2B98D;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KuaFather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fjitta.KuaFather1;
@@ -453,6 +456,7 @@
 				DCD231001DB32374007F8D8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCD231011DB32374007F8D8A /* Build configuration list for PBXNativeTarget "KuaFatherTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +465,7 @@
 				DCD231031DB32374007F8D8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
